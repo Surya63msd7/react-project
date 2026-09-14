@@ -10,4 +10,4 @@ h1.style.backgroundColor = "yellow";
 const root = document.getElementById("root");
 root.appendChild(h1);
 
-
+function createElement()
