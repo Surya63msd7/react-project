@@ -10,9 +10,37 @@ body{
   color: white;
 }
 
+.parent{
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   border-radius: 8px;
+   background-color: #333;
+}
+
 .card{
-  height: 100px;
-  width: 100px;
+  width: 300px;
   border: 3px solid ;
   border-radius: 10px;
+  text-align: center;
+}
+
+.card p{
+  margin: 20px 0;
+}
+
+.card img{
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 70px;
+}
+.card button{
+  margin: 10px;
+  padding: 10px 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: none;
 }
