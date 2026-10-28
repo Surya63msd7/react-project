@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "smart-webcomponents-react": "^27.1.0",
+    "tailwindcss": "^4.3.3"
+  }
+}
